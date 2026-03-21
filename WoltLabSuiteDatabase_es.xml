@@ -1,0 +1,256 @@
+@ -0,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/6.0/language.xsd" languagecode="es">
+	<import>
+		<category name="wsdb.acp.menu">
+			<item name="wsdb.acp.menu.link.database"><![CDATA[Base de datos]]></item>
+			<item name="wsdb.acp.menu.link.database.list"><![CDATA[Bases de datos]]></item>
+			<item name="wsdb.acp.menu.link.database.add"><![CDATA[Añadir base de datos]]></item>
+		</category>
+		<category name="wsdb.acp.database">
+			<item name="wsdb.acp.database.add"><![CDATA[Añadir base de datos]]></item>
+			<item name="wsdb.acp.database.edit"><![CDATA[Editar base de datos]]></item>
+			<item name="wsdb.acp.database.list"><![CDATA[Bases de datos]]></item>
+			<item name="wsdb.acp.database.path"><![CDATA[Ruta]]></item>
+			<item name="wsdb.acp.database.path.error.notUnique"><![CDATA[Esta ruta ya está en uso.]]></item>
+			<item name="wsdb.acp.database.path.error.invalid"><![CDATA[Esta ruta no es válida.]]></item>
+			<item name="wsdb.acp.database.isMultilingual"><![CDATA[Base de datos multilingüe]]></item>
+			<item name="wsdb.acp.database.preset"><![CDATA[Predefinido]]></item>
+			<item name="wsdb.acp.database.settings"><![CDATA[Ajustes]]></item>
+			<item name="wsdb.acp.database.enableCategories"><![CDATA[Activar categorías]]></item>
+			<item name="wsdb.acp.database.enableComments"><![CDATA[Activar comentarios]]></item>
+			<item name="wsdb.acp.database.enableReactions"><![CDATA[Activar reacciones]]></item>
+			<item name="wsdb.acp.database.enableMarkAsDone"><![CDATA[Activar “Marcar como resuelto”]]></item>
+			<item name="wsdb.acp.database.enableToc"><![CDATA[Activar tabla de contenidos]]></item>
+			<item name="wsdb.acp.database.enableUgc"><![CDATA[Activar marca de “Contenido generado por usuario”]]></item>
+			<item name="wsdb.acp.database.enableLabels"><![CDATA[Activar etiquetas]]></item>
+			<item name="wsdb.acp.database.enableCoverPhoto"><![CDATA[Activar fotos de portada]]></item>
+			<item name="wsdb.acp.database.enableMap"><![CDATA[Activar mapa]]></item>
+			<item name="wsdb.acp.database.enableTagging"><![CDATA[Activar tags]]></item>
+			<item name="wsdb.acp.database.enableReviews"><![CDATA[Activar reseñas]]></item>
+			<item name="wsdb.acp.database.landingPageType"><![CDATA[Página de destino]]></item>
+			<item name="wsdb.acp.database.landingPageType.categories"><![CDATA[Lista de categorías]]></item>
+			<item name="wsdb.acp.database.landingPageType.records"><![CDATA[Lista de registros]]></item>
+			<item name="wsdb.acp.database.listingTemplateName"><![CDATA[Plantilla de lista]]></item>
+			<item name="wsdb.acp.database.listingTemplateName.cards"><![CDATA[Tarjetas]]></item>
+			<item name="wsdb.acp.database.listingTemplateName.compact"><![CDATA[Tarjetas compactas]]></item>
+			<item name="wsdb.acp.database.listingTemplateName.items"><![CDATA[Entradas]]></item>
+			<item name="wsdb.acp.database.listingSortField"><![CDATA[Campo de clasificación]]></item>
+			<item name="wsdb.acp.database.listingSortOrder"><![CDATA[Orden de clasificación]]></item>
+			<item name="wsdb.acp.database.listingItemsPerPage"><![CDATA[Registros por página]]></item>
+			<item name="wsdb.acp.database.microDataItemType"><![CDATA[Tipo de elemento de Schema.org]]></item>
+			<item name="wsdb.acp.database.language"><![CDATA[Frases]]></item>
+			<item name="wsdb.acp.database.language.recordSingular"><![CDATA[Registros (Singular)]]></item>
+			<item name="wsdb.acp.database.language.recordPlural"><![CDATA[Registros (Plural)]]></item>
+			<item name="wsdb.acp.database.language.definiteArticle"><![CDATA[Artículo definido]]></item>
+			<item name="wsdb.acp.database.acl"><![CDATA[Permisos]]></item>
+			<item name="wsdb.acp.database.category.icon"><![CDATA[Icono]]></item>
+			<item name="wsdb.acp.database.category.canContainRecords"><![CDATA[Puede contener registros]]></item>
+			<item name="wsdb.acp.database.language.article"><![CDATA[Artículo]]></item>
+			<item name="wsdb.acp.database.appearance"><![CDATA[Apariencia]]></item>
+			<item name="wsdb.acp.database.showReadingTime"><![CDATA[Mostrar tiempo de lectura]]></item>
+			<item name="wsdb.acp.database.showTagsInListing"><![CDATA[Mostrar tags en el listado]]></item>
+			<item name="wsdb.acp.database.showTeaserInListing"><![CDATA[Mostrar teaser en el listado]]></item>
+			<item name="wsdb.acp.database.isDisabled"><![CDATA[Desactivar base de datos]]></item>
+		</category>
+		<category name="wsdb.acp.option">
+			<item name="wsdb.acp.option.list"><![CDATA[Campos de entrada]]></item>
+			<item name="wsdb.acp.option.add"><![CDATA[Añadir campo de entrada]]></item>
+			<item name="wsdb.acp.option.edit"><![CDATA[Editar campo de entrada]]></item>
+			<item name="wsdb.acp.option.showInListing"><![CDATA[Mostrar en la lista de registros]]></item>
+			<item name="wsdb.acp.option.enableSorting"><![CDATA[Se puede utilizar para ordenar registros]]></item>
+			<item name="wsdb.acp.option.enableFiltering"><![CDATA[Se puede utilizar para filtrar registros]]></item>
+			<item name="wsdb.acp.option.listingPosition"><![CDATA[Posición de visualización en la lista de registros]]></item>
+			<item name="wsdb.acp.option.listingPosition.top"><![CDATA[Parte superior]]></item>
+			<item name="wsdb.acp.option.listingPosition.bottom"><![CDATA[Parte inferior]]></item>
+			<item name="wsdb.acp.option.listingPosition.descriptionList"><![CDATA[Lista de descripciones]]></item>
+			<item name="wsdb.acp.option.listingFormat"><![CDATA[Formato de visualización en la lista de registros]]></item>
+			<item name="wsdb.acp.option.displayFormat"><![CDATA[Formato de visualización en la página de detalles]]></item>
+			<item name="wsdb.acp.option.displayFormat.value"><![CDATA[Valor]]></item>
+			<item name="wsdb.acp.option.displayPosition"><![CDATA[Posición de visualización en la página de detalles]]></item>
+			<item name="wsdb.acp.option.displayPosition.title"><![CDATA[Después del título]]></item>
+			<item name="wsdb.acp.option.displayPosition.metaData"><![CDATA[Metadatos]]></item>
+			<item name="wsdb.acp.option.displayPosition.descriptionList"><![CDATA[Lista de descripciones]]></item>
+			<item name="wsdb.acp.option.isMultilingual"><![CDATA[Campo de entrada multilingüe]]></item>
+			<item name="wsdb.acp.option.isDisabled"><![CDATA[Desactivar campo de entrada]]></item>
+			<item name="wsdb.acp.option.displayIcon"><![CDATA[Icono]]></item>
+			<item name="wsdb.acp.option.isLimitedToCategories"><![CDATA[Limitar la disponibilidad de este campo de entrada a categorías específicas]]></item>
+			<item name="wsdb.acp.option.limitToCategories"><![CDATA[Categorías disponibles]]></item>
+			<item name="wsdb.acp.option.group"><![CDATA[Grupo de campos de entrada]]></item>
+			<item name="wsdb.acp.option.group.list"><![CDATA[Grupos de campos de entrada]]></item>
+			<item name="wsdb.acp.option.group.add"><![CDATA[Añadir grupo de campos de entrada]]></item>
+			<item name="wsdb.acp.option.group.edit"><![CDATA[Editar grupo de campos de entrada]]></item>
+			<item name="wsdb.acp.option.group.isDisabled"><![CDATA[Desactivar grupo de campos de entrada]]></item>
+			<item name="wsdb.acp.option.group.button.list"><![CDATA[Grupos de campos de entrada]]></item>
+			<item name="wsdb.acp.option.group.button.choose"><![CDATA[Seleccionar grupo de campos de entrada]]></item>
+		</category>
+		<category name="wsdb.record">
+			<item name="wsdb.record.button.add"><![CDATA[Añadir {$recordSingular|ucfirst}]]></item>
+			<item name="wsdb.record.add"><![CDATA[Añadir {$recordSingular|ucfirst}]]></item>
+			<item name="wsdb.record.edit"><![CDATA[Editar {$recordSingular|ucfirst}]]></item>
+			<item name="wsdb.record.list"><![CDATA[{$recordPlural|ucfirst}]]></item>
+			<item name="wsdb.record.listByUser"><![CDATA[{$recordPlural|ucfirst} por usuario]]></item>
+			<item name="wsdb.record.comment"><![CDATA[Comentario de {$recordSingular|ucfirst}]]></item>
+			<item name="wsdb.record.commentResponse"><![CDATA[Respuesta a comentario de {$recordSingular|ucfirst}]]></item>
+			<item name="wsdb.record.delete"><![CDATA[Eliminar]]></item>
+			<item name="wsdb.record.enable"><![CDATA[Activar]]></item>
+			<item name="wsdb.record.enableNow"><![CDATA[Publicar ahora]]></item>
+			<item name="wsdb.record.publicationDate"><![CDATA[Fecha de publicación]]></item>
+			<item name="wsdb.record.publicationDate.description"><![CDATA[Opcionalmente, puedes establecer una fecha en la que la publicación se realice automáticamente.]]></item>
+			<item name="wsdb.record.publicationNote"><![CDATA[Este {$recordSingular} se publicará el {time time=$publicationDate}.]]></item>
+			<item name="wsdb.record.scheduledPublication"><![CDATA[Publicación programada]]></item>
+			<item name="wsdb.record.log.trash.summary"><![CDATA[{$recordSingular} eliminado por {if $userID}<a href="{link controller='User' id=$userID title=$username}{/link}" class="userLink" data-object-id="{$userID}">{$username}</a>{else}{$username}{/if}{if $additionalData[reason]} por el siguiente motivo: {$additionalData[reason]}{/if}. ({unsafe:$time|time}).]]></item>
+			<item name="wsdb.record.userRecords"><![CDATA[{$recordPlural} de {$username}]]></item>
+			<item name="wsdb.record.latestRecord"><![CDATA[Último {$recordSingular}]]></item>
+			<item name="wsdb.record.latestRecords"><![CDATA[Últimos {$recordPlural|ucfirst}]]></item>
+			<item name="wsdb.record.popularRecords"><![CDATA[{$recordPlural|ucfirst} populares]]></item>
+			<item name="wsdb.record.notification.title"><![CDATA[Nuevo {$recordSingular}]]></item>
+			<item name="wsdb.record.notification.name"><![CDATA[Nuevo {$recordSingular} en una categoría suscrita]]></item>
+			<item name="wsdb.record.notification.message"><![CDATA[<strong>{$author}</strong> ha escrito {$definiteArticle} {$recordSingular} <strong>{$record->getTitle()}</strong>.]]></item>
+			<item name="wsdb.record.notification.mail.plaintext"><![CDATA[{unsafe:$author} ha escrito {$definiteArticle} {$recordSingular} “{unsafe:$record->getTitle()}” [URL:{unsafe:$record->getLink()}]:]]></item>
+			<item name="wsdb.record.notification.mail.html"><![CDATA[<p><strong>{$author}</strong> ha escrito {$definiteArticle} {$recordSingular} <a href="{$record->getLink()}">{$record->getTitle()}</a>:</p>]]></item>
+			<item name="wsdb.record.comment.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Un invitado{/if} ha comentado en {$definiteArticle} {$recordSingular} <strong>{$record->getTitle()}</strong>.]]></item>
+			<item name="wsdb.record.comment.notification.name"><![CDATA[Nuevo comentario en {$recordSingular}]]></item>
+			<item name="wsdb.record.comment.notification.message.stacked"><![CDATA[{unsafe:'wcf.user.notification.stacked.authorList'|language} han comentado en {$definiteArticle} {$recordSingular} <strong>{$record->getTitle()}</strong>.]]></item>
+			<item name="wsdb.record.comment.response.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Un invitado{/if} ha respondido a tu comentario en {$definiteArticle} {$recordSingular} <strong>{$record->getTitle()}</strong>.]]></item>
+			<item name="wsdb.record.comment.response.notification.name"><![CDATA[Nueva respuesta a tu comentario]]></item>
+			<item name="wsdb.record.comment.response.notification.message.stacked"><![CDATA[{unsafe:'wcf.user.notification.stacked.authorList'|language} han respondido a tu comentario en {$definiteArticle} {$recordSingular} <strong>{$record->getTitle()}</strong>.]]></item>
+			<item name="wsdb.record.comment.responseOwner.notification.message"><![CDATA[{if $author->userID}<strong>{$author}</strong>{else}Un invitado{/if} ha respondido a un comentario de <strong>{$commentAuthor->username}</strong> en tu {$recordSingular} <strong>{$record->getTitle()}</strong>.]]></item>
+			<item name="wsdb.record.comment.responseOwner.notification.name"><![CDATA[Nueva respuesta a un comentario]]></item>
+			<item name="wsdb.record.comment.responseOwner.notification.message.stacked"><![CDATA[{unsafe:'wcf.user.notification.stacked.authorList'|language} han respondido a un comentario de <strong>{$author->username}</strong> en tu {$recordSingular} <strong>{$record->getTitle()}</strong>.]]></item>
+			<item name="wsdb.record.comment.notification.mail.plaintext"><![CDATA[{unsafe:$authorList} han comentado en {$definiteArticle} {$recordSingular} “{unsafe:$record->getSubject()}” [URL:{unsafe:$record->getLink()}#comments/comment{$commentID}]{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
+			<item name="wsdb.record.comment.notification.mail.html"><![CDATA[<p>{unsafe:$authorList} han comentado en {$definiteArticle} {$recordSingular} <a href="{$record->getLink()}#comments/comment{$commentID}">{$record->getTitle()}</a>:</p>]]]]]]><![CDATA[><![CDATA[></item>]]></item>
+			<item name="wsdb.record.comment.response.notification.mail.plaintext"><![CDATA[{unsafe:$authorList} han respondido a tu comentario en {$definiteArticle} {$recordSingular} “{unsafe:$record->getTitle()}” [URL:{unsafe:$record->getLink()}#comments/comment{$commentID}/response{$responseID}]{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
+			<item name="wsdb.record.comment.response.notification.mail.html"><![CDATA[<p>{unsafe:$authorList} han respondido al comentario de <strong>{$commentAuthor}</strong> en {$definiteArticle} {$recordSingular} <a href="{$record->getLink()}#comments/comment{$commentID}/response{$responseID}">{$record->getTitle()}</a>:</p>]]></item>
+			<item name="wsdb.record.comment.responseOwner.notification.mail.plaintext"><![CDATA[{unsafe:$authorList} han respondido al comentario de {unsafe:$commentAuthor} en tu {$recordSingular} “{unsafe:$record->getTitle()}” [URL:{unsafe:$record->getLink()}#comments/comment{$commentID}/response{$responseID}]{if $count == 1 && !$guestTimesTriggered}:{else}.{/if}]]></item>
+			<item name="wsdb.record.comment.responseOwner.notification.mail.html"><![CDATA[<p>{unsafe:$authorList} han respondido a un comentario de <strong>{$commentAuthor}</strong> en tu {$recordSingular} <a href="{$record->getLink()}#comments/comment{$commentID}/response{$responseID}">{$record->getTitle()}</a>:</p>]]></item>
+			<item name="wsdb.record.recentActivity"><![CDATA[<strong>{$author}</strong> ha publicado {$definiteArticle} {$recordSingular} {if $record->hasLabels}<ul class="labelList">{foreach from=$record->getLabels() item=label}<li>{unsafe:$label->render()}</li>{/foreach}</ul> {/if}<strong>{$record->getTitle()}</strong>.]]></item>
+			<item name="wsdb.record.recentActivity.reaction"><![CDATA[<strong>{$author}</strong> ha reaccionado con {unsafe:$reactionType->renderIcon()} a {$definiteArticle} {$recordSingular} {if $record->hasLabels}<ul class="labelList">{foreach from=$record->getLabels() item=label}<li>{unsafe:$label->render()}</li>{/foreach}</ul>{/if} <strong>{$record->getTitle()}</strong>.]]></item>
+			<item name="wsdb.record.recentActivity.comment"><![CDATA[<strong>{$author}</strong> ha comentado {$definiteArticle} {$recordSingular} <strong>{$record->getTitle()}</strong>.]]></item>
+			<item name="wsdb.record.recentActivity.comment.response"><![CDATA[<strong>{$author}</strong> ha respondido a un comentario de <strong>{$commentAuthor->username}</strong> en {$definiteArticle} {$recordSingular} <strong>{$record->getTitle()}</strong>.]]></item>
+			<item name="wsdb.record.taggedObjects"><![CDATA[{$recordPlural|ucfirst} etiquetados con]]></item>
+			<item name="wsdb.record.deletedRecords"><![CDATA[{$recordPlural|ucfirst} eliminados]]></item>
+			<item name="wsdb.record.coverPhoto"><![CDATA[Foto de portada]]></item>
+			<item name="wsdb.record.coverPhoto.description"><![CDATA[Tamaño mínimo de imagen: {$minWidth} × {$minHeight} pixels<br>
+Tamaño máximo de imagen: {$maxWidth} × {$maxHeight} pixels<br>
+Tamaño máximo de archivo: {$maxFilesize|filesize}<br>
+Extensiones permitidas: gif, jpg, jpeg, png, webp]]></item>
+			<item name="wsdb.record.markAsDone"><![CDATA[Marcar como resuelto]]></item>
+			<item name="wsdb.record.markAsUndone"><![CDATA[Marcar como no resuelto]]></item>
+			<item name="wsdb.record.like.notification.title"><![CDATA[Reacción a tu {$recordSingular}]]></item>
+			<item name="wsdb.record.like.notification.title.stacked"><![CDATA[{#$count} usuarios han reaccionado a tu {$recordSingular}]]></item>
+			<item name="wsdb.record.like.notification.message"><![CDATA[<strong>{$author}</strong> ha reaccionado con {unsafe:$reaction->renderIcon()} a tu {$recordSingular} <strong>{$record->getTitle()}</strong>.]]></item>
+			<item name="wsdb.record.like.notification.name"><![CDATA[Reacción a {$recordSingular}]]></item>
+			<item name="wsdb.record.like.notification.message.stacked"><![CDATA[{unsafe:$authorList} han reaccionado{if $reaction} con {unsafe:$reaction->renderIcon()}{/if} a tu {$recordSingular} <strong>{$record->getTitle()}</strong>.]]></item>
+			<item name="wsdb.record.notification.recordComment.like.title"><![CDATA[Reacción a un comentario ({$recordSingular})]]></item>
+			<item name="wsdb.record.notification.recordComment.like.name"><![CDATA[Reacción a un comentario]]></item>
+			<item name="wsdb.record.notification.recordComment.like.title.stacked"><![CDATA[{#$count} usuarios han reaccionado a tu comentario ({$recordSingular})]]></item>
+			<item name="wsdb.record.notification.recordComment.like.message"><![CDATA[<strong>{$author}</strong> ha reaccionado con {unsafe:$reaction->renderIcon()} a tu comentario en {$definiteArticle} {$recordSingular} <strong>{$record->getTitle()}</strong>.]]></item>
+			<item name="wsdb.record.notification.recordComment.like.message.stacked"><![CDATA[{unsafe:$authorList} han reaccionado{if $reaction} con {unsafe:$reaction->renderIcon()}{/if} a tu comentario en {$definiteArticle} {$recordSingular} <strong>{$record->getTitle()}</strong>.]]></item>
+			<item name="wsdb.record.notification.recordComment.response.like.title"><![CDATA[Reacción a tu respuesta a un comentario ({$recordSingular})]]></item>
+			<item name="wsdb.record.notification.recordComment.response.like.name"><![CDATA[Reacción a tu respuesta a un comentario]]></item>
+			<item name="wsdb.record.notification.recordComment.response.like.title.stacked"><![CDATA[{#$count} usuarios han reaccionado a tu respuesta a un comentario ({$recordSingular})]]></item>
+			<item name="wsdb.record.notification.recordComment.response.like.message"><![CDATA[<strong>{$author}</strong> ha reaccionado con {unsafe:$reaction->renderIcon()} a tu respuesta a un comentario en {$definiteArticle} {$recordSingular} <strong>{$record->getTitle()}</strong>.]]></item>
+			<item name="wsdb.record.notification.recordComment.response.like.message.stacked"><![CDATA[{unsafe:$authorList} han reaccionado{if $reaction} con {unsafe:$reaction->renderIcon()}{/if} a tu respuesta a un comentario en {$definiteArticle} {$recordSingular} <strong>{$record->getTitle()}</strong>.]]></item>
+			<item name="wsdb.record.map"><![CDATA[Mapa]]></item>
+			<item name="wsdb.record.enableLocation"><![CDATA[Activar mapa]]></item>
+			<item name="wsdb.record.location"><![CDATA[Ubicación]]></item>
+			<item name="wsdb.record.location.description"><![CDATA[Escribe la ubicación y selecciona un resultado de entre las sugerencias.]]></item>
+			<item name="wsdb.record.category.unreadRecords"><![CDATA[Nuevos {$recordPlural}: {#$unreadRecords}]]></item>
+			<item name="wsdb.record.aggregateRating"><![CDATA[{plural value=$rating one='# estrella' other='# estrellas'} ({plural value=$numberOfRatings one='# reseña' other='# reseñas'})]]></item>
+			<item name="wsdb.record.rating"><![CDATA[Calificación]]></item>
+			<item name="wsdb.record.review"><![CDATA[Reseña]]></item>
+			<item name="wsdb.record.review.rating"><![CDATA[{plural value=$review->rating one='# estrella' other='# estrellas'}]]></item>
+			<item name="wsdb.record.review.add"><![CDATA[Crear reseña]]></item>
+			<item name="wsdb.record.review.edit"><![CDATA[Editar reseña]]></item>
+			<item name="wsdb.record.reviews"><![CDATA[Reseñas]]></item>
+			<item name="wsdb.record.reviews.more"><![CDATA[Más reseñas]]></item>
+			<item name="wsdb.record.review.responseBy"><![CDATA[Respuesta de {$username}]]></item>
+			<item name="wsdb.record.review.response"><![CDATA[Respuesta]]></item>
+			<item name="wsdb.record.review.response.add"><![CDATA[Crear respuesta]]></item>
+			<item name="wsdb.record.review.response.edit"><![CDATA[Editar respuesta]]></item>
+			<item name="wsdb.record.review.respond"><![CDATA[Responder]]></item>
+			<item name="wsdb.record.modificationLog.delete"><![CDATA[{$recordSingular|ucfirst} eliminado]]></item>
+			<item name="wsdb.record.modificationLog.disable"><![CDATA[{$recordSingular|ucfirst} desactivado]]></item>
+			<item name="wsdb.record.modificationLog.edit"><![CDATA[{$recordSingular|ucfirst} editado]]></item>
+			<item name="wsdb.record.modificationLog.enable"><![CDATA[{$recordSingular|ucfirst} aprobado]]></item>
+			<item name="wsdb.record.modificationLog.restore"><![CDATA[{$recordSingular|ucfirst} restaurado]]></item>
+			<item name="wsdb.record.modificationLog.trash"><![CDATA[{$recordSingular|ucfirst} movido a la papelera]]></item>
+			<item name="wsdb.record.markedAsDone"><![CDATA[Marcado como resuelto]]></item>
+			<item name="wsdb.record.teaser"><![CDATA[Teaser]]></item>
+			<item name="wsdb.record.sortField.title"><![CDATA[Título]]></item>
+			<item name="wsdb.record.sortField.time"><![CDATA[Fecha]]></item>
+			<item name="wsdb.record.sortField.comments"><![CDATA[Comentarios]]></item>
+		</category>
+		<category name="wsdb.preset">
+			<item name="wsdb.preset.com.woltlab.classifieds"><![CDATA[Anuncios clasificados]]></item>
+			<item name="wsdb.preset.com.woltlab.knowledgeBase"><![CDATA[Base de conocimiento]]></item>
+			<item name="wsdb.preset.com.woltlab.news"><![CDATA[Noticias]]></item>
+			<item name="wsdb.preset.com.woltlab.blank"><![CDATA[Ninguno]]></item>
+			<item name="wsdb.preset.default.recordSingular"><![CDATA[registro]]></item>
+			<item name="wsdb.preset.default.recordPlural"><![CDATA[registros]]></item>
+			<item name="wsdb.preset.default.definiteArticle"><![CDATA[el]]></item>
+			<item name="wsdb.preset.com.woltlab.news.recordSingular"><![CDATA[noticia]]></item>
+			<item name="wsdb.preset.com.woltlab.news.recordPlural"><![CDATA[noticias]]></item>
+			<item name="wsdb.preset.option.com.woltlab.classifieds.type"><![CDATA[Oferta/Solicitud]]></item>
+			<item name="wsdb.preset.option.com.woltlab.classifieds.price"><![CDATA[Precio]]></item>
+		</category>
+		<category name="wsdb.option"/>
+		<category name="wsdb.database"/>
+		<category name="wcf.like">
+			<item name="wcf.like.title.com.woltlab.wsdb.likeableRecord"><![CDATA[Ha reaccionado con {$reaction->render()} al {$recordSingular} <a href="{$record->getLink()}">{$record->getTitle()}</a>.]]></item>
+		</category>
+		<category name="wcf.acl.option">
+			<item name="wcf.acl.option.com.woltlab.wsdb.database.canUploadAttachment"><![CDATA[Puede subir archivos adjuntos]]></item>
+			<item name="wcf.acl.option.com.woltlab.wsdb.database.canDownloadAttachment"><![CDATA[Puede descargar archivos adjuntos]]></item>
+			<item name="wcf.acl.option.com.woltlab.wsdb.database.canViewAttachmentPreview"><![CDATA[Puede ver vistas previas de archivos adjuntos]]></item>
+			<item name="wcf.acl.option.com.woltlab.wsdb.database.canViewRecord"><![CDATA[Puede ver registros]]></item>
+			<item name="wcf.acl.option.com.woltlab.wsdb.database.canAddRecord"><![CDATA[Puede añadir registros]]></item>
+			<item name="wcf.acl.option.com.woltlab.wsdb.database.canAddRecordWithoutModeration"><![CDATA[Puede añadir registros sin aprobación]]></item>
+			<item name="wcf.acl.option.category.com.woltlab.wsdb.category.user.category"><![CDATA[Categoría]]></item>
+			<item name="wcf.acl.option.category.com.woltlab.wsdb.category.user.record"><![CDATA[Registro]]></item>
+			<item name="wcf.acl.option.com.woltlab.wsdb.category.canViewRecord"><![CDATA[Puede ver registros]]></item>
+			<item name="wcf.acl.option.com.woltlab.wsdb.category.canAddRecord"><![CDATA[Puede añadir registros]]></item>
+			<item name="wcf.acl.option.com.woltlab.wsdb.category.canAddRecordWithoutModeration"><![CDATA[Puede añadir registros sin aprobación]]></item>
+			<item name="wcf.acl.option.com.woltlab.wsdb.category.canViewCategory"><![CDATA[Puede ver la categoría]]></item>
+			<item name="wcf.acl.option.category.com.woltlab.wsdb.database.user.general"><![CDATA[Permisos generales]]></item>
+			<item name="wcf.acl.option.category.com.woltlab.wsdb.database.mod.general"><![CDATA[Permisos de moderación]]></item>
+			<item name="wcf.acl.option.com.woltlab.wsdb.database.canDeleteRecord"><![CDATA[Puede eliminar registros]]></item>
+			<item name="wcf.acl.option.com.woltlab.wsdb.database.canRestoreRecord"><![CDATA[Puede restaurar registros]]></item>
+			<item name="wcf.acl.option.com.woltlab.wsdb.database.canDeleteRecordCompletely"><![CDATA[Puede eliminar registros permanentemente]]></item>
+			<item name="wcf.acl.option.com.woltlab.wsdb.database.canEnableRecord"><![CDATA[Puede activar registros]]></item>
+			<item name="wcf.acl.option.com.woltlab.wsdb.database.canEditRecord"><![CDATA[Puede editar registros]]></item>
+			<item name="wcf.acl.option.com.woltlab.wsdb.database.canViewDeletedRecord"><![CDATA[Puede ver registros eliminados]]></item>
+			<item name="wcf.acl.option.category.com.woltlab.wsdb.category.mod.category"><![CDATA[Permisos de moderación]]></item>
+			<item name="wcf.acl.option.com.woltlab.wsdb.category.canDeleteRecord"><![CDATA[Can delete records]]></item>
+			<item name="wcf.acl.option.com.woltlab.wsdb.category.canRestoreRecord"><![CDATA[Puede restaurar registros]]></item>
+			<item name="wcf.acl.option.com.woltlab.wsdb.category.canDeleteRecordCompletely"><![CDATA[Puede eliminar registros permanentemente]]></item>
+			<item name="wcf.acl.option.com.woltlab.wsdb.category.canEnableRecord"><![CDATA[Puede activar registros]]></item>
+			<item name="wcf.acl.option.com.woltlab.wsdb.category.canEditRecord"><![CDATA[Puede editar registros]]></item>
+			<item name="wcf.acl.option.com.woltlab.wsdb.category.canViewDeletedRecord"><![CDATA[Puede ver registros eliminados]]></item>
+			<item name="wcf.acl.option.com.woltlab.wsdb.database.canAddComment"><![CDATA[Puede crear comentarios]]></item>
+			<item name="wcf.acl.option.com.woltlab.wsdb.database.canAddCommentWithoutModeration"><![CDATA[Puede crear comentarios sin aprobación]]></item>
+			<item name="wcf.acl.option.com.woltlab.wsdb.database.canEditOwnComment"><![CDATA[Puede editar sus comentarios]]></item>
+			<item name="wcf.acl.option.com.woltlab.wsdb.database.canDeleteOwnComment"><![CDATA[Puede eliminar sus comentarios]]></item>
+			<item name="wcf.acl.option.com.woltlab.wsdb.database.canEditOwnRecord"><![CDATA[Puede editar sus registros]]></item>
+			<item name="wcf.acl.option.com.woltlab.wsdb.database.canDeleteOwnRecord"><![CDATA[Puede eliminar sus registros]]></item>
+			<item name="wcf.acl.option.com.woltlab.wsdb.database.canAddReview"><![CDATA[Puede añadir reseñas]]></item>
+			<item name="wcf.acl.option.com.woltlab.wsdb.database.canEditOwnReview"><![CDATA[Puede editar sus reseñas]]></item>
+			<item name="wcf.acl.option.com.woltlab.wsdb.database.canDeleteOwnReview"><![CDATA[Puede eliminar sus reseñas]]></item>
+		</category>
+		<category name="wcf.acp.group">
+			<item name="wcf.acp.group.option.mod.wsdb.canEditRecord"><![CDATA[Puede editar registros]]></item>
+			<item name="wcf.acp.group.option.mod.wsdb.canDeleteRecord"><![CDATA[Puede eliminar registros]]></item>
+			<item name="wcf.acp.group.option.mod.wsdb.canRestoreRecord"><![CDATA[Puede restaurar registros]]></item>
+			<item name="wcf.acp.group.option.mod.wsdb.canDeleteRecordCompletely"><![CDATA[Puede eliminar registros permanentemente]]></item>
+			<item name="wcf.acp.group.option.mod.wsdb.canEnableRecord"><![CDATA[Puede activar registros]]></item>
+			<item name="wcf.acp.group.option.mod.wsdb.canViewDeletedRecord"><![CDATA[Puede ver registros eliminados]]></item>
+			<item name="wcf.acp.group.option.category.mod.wsdb"><![CDATA[Base de datos]]></item>
+			<item name="wcf.acp.group.option.category.admin.wsdb"><![CDATA[Base de datos]]></item>
+			<item name="wcf.acp.group.option.admin.wsdb.canManageDatabase"><![CDATA[Puede gestionar bases de datos]]></item>
+		</category>
+	</import>
+	<delete>
+		<item name="wsdb.record.comments.count"/>
+	</delete>
+</language>
