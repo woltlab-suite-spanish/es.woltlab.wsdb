@@ -177,7 +177,7 @@ Extensiones permitidas: gif, jpg, jpeg, png, webp]]></item>
 			<item name="wsdb.record.modificationLog.restore"><![CDATA[{$recordSingular|ucfirst} restaurado]]></item>
 			<item name="wsdb.record.modificationLog.trash"><![CDATA[{$recordSingular|ucfirst} movido a la papelera]]></item>
 			<item name="wsdb.record.markedAsDone"><![CDATA[Marcado como resuelto]]></item>
-			<item name="wsdb.record.teaser"><![CDATA[Teaser]]></item>
+			<item name="wsdb.record.teaser"><![CDATA[Extracto]]></item>
 			<item name="wsdb.record.sortField.title"><![CDATA[Título]]></item>
 			<item name="wsdb.record.sortField.time"><![CDATA[Fecha]]></item>
 			<item name="wsdb.record.sortField.comments"><![CDATA[Comentarios]]></item>
