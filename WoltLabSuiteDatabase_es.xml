@@ -50,7 +50,7 @@
 			<item name="wsdb.acp.database.appearance"><![CDATA[Apariencia]]></item>
 			<item name="wsdb.acp.database.showReadingTime"><![CDATA[Mostrar tiempo de lectura]]></item>
 			<item name="wsdb.acp.database.showTagsInListing"><![CDATA[Mostrar tags en el listado]]></item>
-			<item name="wsdb.acp.database.showTeaserInListing"><![CDATA[Mostrar teaser en el listado]]></item>
+			<item name="wsdb.acp.database.showTeaserInListing"><![CDATA[Mostrar extracto en el listado]]></item>
 			<item name="wsdb.acp.database.isDisabled"><![CDATA[Desactivar base de datos]]></item>
 		</category>
 		<category name="wsdb.acp.option">
