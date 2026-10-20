@@ -198,6 +198,8 @@ Extensiones permitidas: gif, jpg, jpeg, png, webp]]></item>
 		<category name="wsdb.database"/>
 		<category name="wcf.like">
 			<item name="wcf.like.title.com.woltlab.wsdb.likeableRecord"><![CDATA[Ha reaccionado con {unsafe:$reaction->render()} a {$definiteArticle} {$recordSingular} <a href="{$record->getLink()}">{$record->getTitle()}</a>.]]></item>
+			<item name="wcf.like.title.com.woltlab.wsdb.recordComment"><![CDATA[Ha reaccionado con {unsafe:$reaction->render()} al comentario de {if $commentAuthor}{user object=$commentAuthor}{else}un invitado{/if} en {$definiteArticle} {$recordSingular} <a href="{$record->getLink()}">{$record->getTitle()}</a>.]]></item>
+			<item name="wcf.like.title.com.woltlab.wsdb.recordComment.response"><![CDATA[Ha reaccionado con {unsafe:$reaction->render()} a la respuesta de {if $responseAuthor}{user object=$responseAuthor}{else}un invitado{/if} al comentario de {if $commentAuthor}{user object=$commentAuthor}{else}un invitado{/if} a {$definiteArticle} {$recordSingular} <a href="{$record->getLink()}">{$record->getTitle()}</a>.]]></item>
 		</category>
 		<category name="wcf.acl.option">
 			<item name="wcf.acl.option.com.woltlab.wsdb.database.canUploadAttachment"><![CDATA[Puede subir archivos adjuntos]]></item>
@@ -251,6 +253,9 @@ Extensiones permitidas: gif, jpg, jpeg, png, webp]]></item>
 		<category name="wcf.acp.rebuildData">
 			<item name="wcf.acp.rebuildData.wcf_system_wsdb_worker_RecordRebuildDataWorker"><![CDATA[Reconstruir registros de la base de datos]]></item>
 			<item name="wcf.acp.rebuildData.wcf_system_wsdb_worker_RecordRebuildDataWorker.description"><![CDATA[Reconstruye el índice de búsqueda de registros de la base de datos.]]></item>
+		</category>
+		<category name="wcf.page">
+			<item name="wcf.page.onlineLocation.com.woltlab.wsdb.Record"><![CDATA[{$recordSingular|ucfirst} {anchor object=$record class='wsdbRecordLink'}]]></item>
 		</category>
 	</import>
 	<delete>
