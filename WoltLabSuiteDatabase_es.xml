@@ -221,7 +221,7 @@ Extensiones permitidas: gif, jpg, jpeg, png, webp]]></item>
 			<item name="wcf.acl.option.com.woltlab.wsdb.database.canEditRecord"><![CDATA[Puede editar registros]]></item>
 			<item name="wcf.acl.option.com.woltlab.wsdb.database.canViewDeletedRecord"><![CDATA[Puede ver registros eliminados]]></item>
 			<item name="wcf.acl.option.category.com.woltlab.wsdb.category.mod.category"><![CDATA[Permisos de moderación]]></item>
-			<item name="wcf.acl.option.com.woltlab.wsdb.category.canDeleteRecord"><![CDATA[Can delete records]]></item>
+			<item name="wcf.acl.option.com.woltlab.wsdb.category.canDeleteRecord"><![CDATA[Puede eliminar registros]]></item>
 			<item name="wcf.acl.option.com.woltlab.wsdb.category.canRestoreRecord"><![CDATA[Puede restaurar registros]]></item>
 			<item name="wcf.acl.option.com.woltlab.wsdb.category.canDeleteRecordCompletely"><![CDATA[Puede eliminar registros permanentemente]]></item>
 			<item name="wcf.acl.option.com.woltlab.wsdb.category.canEnableRecord"><![CDATA[Puede activar registros]]></item>
