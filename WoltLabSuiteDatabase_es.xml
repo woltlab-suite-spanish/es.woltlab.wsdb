@@ -197,7 +197,7 @@ Extensiones permitidas: gif, jpg, jpeg, png, webp]]></item>
 		<category name="wsdb.option"/>
 		<category name="wsdb.database"/>
 		<category name="wcf.like">
-			<item name="wcf.like.title.com.woltlab.wsdb.likeableRecord"><![CDATA[Ha reaccionado con {unsafe:$reaction->render()} al {$recordSingular} <a href="{$record->getLink()}">{$record->getTitle()}</a>.]]></item>
+			<item name="wcf.like.title.com.woltlab.wsdb.likeableRecord"><![CDATA[Ha reaccionado con {unsafe:$reaction->render()} a {$definiteArticle} {$recordSingular} <a href="{$record->getLink()}">{$record->getTitle()}</a>.]]></item>
 		</category>
 		<category name="wcf.acl.option">
 			<item name="wcf.acl.option.com.woltlab.wsdb.database.canUploadAttachment"><![CDATA[Puede subir archivos adjuntos]]></item>
