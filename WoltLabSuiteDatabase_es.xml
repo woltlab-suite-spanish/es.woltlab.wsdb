@@ -98,8 +98,8 @@
 			<item name="wsdb.record.publicationDate.description"><![CDATA[Opcionalmente, puedes establecer una fecha en la que la publicación se realice automáticamente.]]></item>
 			<item name="wsdb.record.publicationNote"><![CDATA[Este {$recordSingular} se publicará el {time time=$publicationDate}.]]></item>
 			<item name="wsdb.record.scheduledPublication"><![CDATA[Publicación programada]]></item>
-			<item name="wsdb.record.log.trash.summary"><![CDATA[{$recordSingular} eliminado por {if $userID}<a href="{link controller='User' id=$userID title=$username}{/link}" class="userLink" data-object-id="{$userID}">{$username}</a>{else}{$username}{/if}{if $additionalData[reason]} por el siguiente motivo: {$additionalData[reason]}{/if}. ({unsafe:$time|time}).]]></item>
-			<item name="wsdb.record.userRecords"><![CDATA[{$recordPlural} de {$username}]]></item>
+			<item name="wsdb.record.log.trash.summary"><![CDATA[{$recordSingular|ucfirst} eliminado por {if $userID}<a href="{link controller='User' id=$userID title=$username}{/link}" class="userLink" data-object-id="{$userID}">{$username}</a>{else}{$username}{/if}{if $additionalData[reason]} por el siguiente motivo: {$additionalData[reason]}{/if}. ({unsafe:$time|time}).]]></item>
+			<item name="wsdb.record.userRecords"><![CDATA[{$recordPlural|ucfirst} de {$username}]]></item>
 			<item name="wsdb.record.latestRecord"><![CDATA[Último {$recordSingular}]]></item>
 			<item name="wsdb.record.latestRecords"><![CDATA[Últimos {$recordPlural|ucfirst}]]></item>
 			<item name="wsdb.record.popularRecords"><![CDATA[{$recordPlural|ucfirst} populares]]></item>
