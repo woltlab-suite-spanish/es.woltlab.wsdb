@@ -2,6 +2,12 @@
 
 Idioma español para **WoltLab Suite Database**, desarrollado por [WoltLab GmbH](https://github.com/WoltLab).
 
+## 🔎 Estado de la traducción
+
+- **Última revisión:** 03.11.2026
+- **Versión del software:** 6.2.9
+- **Estado:** Actualizado a la versión 6.2.9
+
 ## 📥 Archivos de idioma disponibles
 * [WoltLab Suite Core](https://github.com/woltlab-suite-spanish/es.woltlab.wcf)
     * [WoltLab Suite Core: Conversations](https://github.com/woltlab-suite-spanish/es.woltlab.wcf.conversation)
@@ -20,18 +26,16 @@ Idioma español para **WoltLab Suite Database**, desarrollado por [WoltLab GmbH]
 * [WoltLab Suite Database](https://github.com/woltlab-suite-spanish/es.woltlab.wsdb)
 
 ## ✏️ Notas de la traducción
-1. La traducción utiliza como base el archivo de idioma inglés `en.xml` del software.  
-2. Los archivos de idioma están actualizados a la última versión porpocionada por el desarrollador.  
-3. Solo se actualiza la versión de la traducción cuando hay cambios en el archivo de idioma original.   
-4. Versiones anteriores de la traducción pueden contener fallos corregidos en versiones más recientes.  
+1. La traducción utiliza como referencia el archivo de idioma inglés `en.xml`  proporcionado por el desarrollador. 
+2. Versiones anteriores de la traducción pueden contener fallos corregidos en versiones más recientes.  
 
 ## ⚙️ Cómo instalar un archivo de idioma
 
 1. Descarga el archivo de idioma `es.xml` desde el repositorio correspondiente.
 2. Accede al panel de administración:  
    `Panel de Control de Administración > Personalización > Idiomas > Importar idioma`.  
-4. Si tienes instalada más de una aplicación, importa cada idioma por separado.
-5. Comienza siempre importando el paquete de idioma de [WoltLab Suite Core](https://github.com/woltlab-suite-spanish/es.woltlab.wcf).
+3. Si tienes instalada más de una aplicación, importa cada idioma por separado.
+4. Comienza siempre importando el paquete de idioma de [WoltLab Suite Core](https://github.com/woltlab-suite-spanish/es.woltlab.wcf).
 
 ## 🪄 Cómo evitar símbolos y caracteres especiales en las URLs
 
@@ -55,4 +59,4 @@ Puedes:
 Traducción realizada por [Aethior](https://github.com/aethior) (aethior *en* gmail.com).  
 Publicado bajo la licencia [LGPL v3.0](https://www.gnu.org/licenses/lgpl-3.0.txt).
 
-*Siéntete libre de descargar, modificar y compartir estos archivos, siempre que menciones al autor y no los distribuyas con fines comerciales.*
+Siéntete libre de descargar, modificar y compartir estos archivos, siempre que menciones al autor y no los distribuyas con fines comerciales.*
