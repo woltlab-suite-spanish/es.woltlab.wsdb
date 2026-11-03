@@ -130,10 +130,7 @@
 			<item name="wsdb.record.taggedObjects"><![CDATA[{$recordPlural|ucfirst} etiquetados con]]></item>
 			<item name="wsdb.record.deletedRecords"><![CDATA[{$recordPlural|ucfirst} eliminados]]></item>
 			<item name="wsdb.record.coverPhoto"><![CDATA[Foto de portada]]></item>
-			<item name="wsdb.record.coverPhoto.description"><![CDATA[Tamaño mínimo de imagen: {$minWidth} × {$minHeight} pixels<br>
-Tamaño máximo de imagen: {$maxWidth} × {$maxHeight} pixels<br>
-Tamaño máximo de archivo: {$maxFilesize|filesize}<br>
-Extensiones permitidas: gif, jpg, jpeg, png, webp]]></item>
+			<item name="wsdb.record.coverPhoto.description"><![CDATA[Imagen de al menos {$minWidth} × {$minHeight} píxeles (GIF, JPG, PNG, WebP). Las imágenes de mayor tamaño se reducen automáticamente y el recorte se puede ajustar después de seleccionar el archivo.]]></item>
 			<item name="wsdb.record.markAsDone"><![CDATA[Marcar como resuelto]]></item>
 			<item name="wsdb.record.markAsUndone"><![CDATA[Marcar como no resuelto]]></item>
 			<item name="wsdb.record.like.notification.title"><![CDATA[Reacción a tu {$recordSingular}]]></item>
